@@ -1,0 +1,43 @@
+@use '../setting/config' as *;
+@use '../mixin/_mixin' as *;
+
+/**********************************************
+  フッターナビゲーション
+**********************************************/
+// PC
+.fnav {
+  color: #fff;
+  
+  &__list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    align-items: center;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    font-size: 14px;
+    letter-spacing: 5%;
+    line-height: 14px;
+    &:first-of-type {
+      margin-left: 0;
+    }
+    @include mq(md) {
+      font-size: 12px;
+      line-height: 12px;
+      margin-left: 25px;
+      &:first-of-type {
+        margin-left: 0;
+      }
+    }
+  }
+
+  &__link {
+    @include hover-pale();
+    text-decoration: none;
+    font-weight: bold;
+  }
+}

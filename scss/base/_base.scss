@@ -1,0 +1,26 @@
+@use '../setting/config' as *;
+@use '../mixin/_mixin' as *;
+
+/**********************************************
+  サイトのベーススタイル(タグ指定)
+  JavaScript使用のスタイル
+**********************************************/
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: $header-height;
+  @include mq(md) {
+    scroll-padding-top: $sp-header-height;
+  }
+}
+
+body {
+  color: $text-color;
+  font-family: $font-family;
+  letter-spacing: $letter-spacing;
+  background-color: $base-color;
+  line-height: $line-height;
+}
+
+main {
+  overflow: hidden;
+}

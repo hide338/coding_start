@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- テストサイトのための設定 -->
+  <meta name="robots" content="noindex,nofollow">
+  <!-- メタ情報 -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- OGPなど -->
+  <title>Stert</title>
+  <meta name="description" content="">
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
+  <meta name="twitter:card" content="summary">
+
+  <!-- Favicon -->
+  <link rel="icon" href="./img/favicon.png">
+  <link rel="apple-touch-icon" href="./img/favicon.png">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- css -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/33b766862d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <!-- /.site-header__inner -->
+      <div class="branding">
+        <a href="/" class="branding__title">
+          <img src="./img/logo.png" alt="START会社ロゴ">
+        </a>
+      </div>
+      <!-- /.branding -->
+
+      <!-- PCナビゲーション -->
+      <nav class="gnav">
+        <ul class="gnav__list">
+          <li class="gnav__item">
+            <a class="gnav__link" href="/index.html">ホーム</a>
+          </li>
+          <li class="gnav__item">
+            <a class="gnav__link" href="/message.html">メッセージ</a>
+          </li>
+          <li class="gnav__item">
+            <a class="gnav__link" href="/about.html">会社概要</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- #site-navigation -->
+
+      <!-- モバイルナビゲーション -->
+      <nav class="sp-gnav">
+        <button id="navbtn" type="button" class="sp-gnav__btn">
+          <i id="bars" class="fa-solid fa-bars fa-2x"></i>
+          <i id="xmark" class="fa-solid fa-x fa-2x hidden"></i>
+        </button>
+        <ul id="menu" class="sp-gnav__list translate-x-full">
+          <li class="sp-gnav__item">
+            <a class="sp-gnav__link" href="/index.html">ホーム</a>
+          </li>
+          <li class="sp-gnav__item">
+            <a class="sp-gnav__link" href="/index.html">メッセージ</a>
+          </li>
+          <li class="sp-gnav__item">
+            <a class="sp-gnav__link" href="/index.html">会社概要</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <sevtion class="lower-fv">
+      <h1 class="lower-fv__title">会社概要</h1>
+    </sevtion>
+    
+    <div class="about container">
+
+      <section class="about-table">
+        <table>
+          <tbody>
+            <tr>
+              <th>社名</th>
+              <td>株式会社START</td>
+            </tr>
+            <tr>
+              <th>設立</th>
+              <td>2025.02.10</td>
+            </tr>
+            <tr>
+              <th>代表取締役</th>
+              <td>ショーン・デイビット・ジュニア</td>
+            </tr>
+            <tr>
+              <th>資本金</th>
+              <td>10,000,000円</td>
+            </tr>
+            <tr>
+              <th>所在地</th>
+              <td>〒555-5555 東京都千代田区 スタートビルディング 606</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="about-map">
+        <iframe class="about-map__gmap" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d25926.105439294963!2d139.73744725215627!3d35.68283279691429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z44CSNTU1LTU1NTUg5p2x5Lqs6YO95Y2D5Luj55Sw5Yy6IOOCueOCv-ODvOODiOODk-ODq-ODh-OCo-ODs-OCsCA2MDY!5e0!3m2!1sja!2sjp!4v1714320646611!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <a href="https://maps.app.goo.gl/aYhbYt9QtXbhuJe96" class="about-map__link">Google mapで見る</a>
+      </section>
+
+      <section class="about-news">
+        <ul class="about-news-list">
+          <li class="about-news-list__item">
+            <div class="about-news-list__date">
+              <time datetime="2030.02.10">2030.02.10</time>
+            </div>
+            <a href="#" class="about-news-list__link">
+              <p class="about-news-list__text">コーポレートサイトをリニューアルしました。</p>
+            </a>
+          </li>
+          <li class="about-news-list__item">
+            <div class="about-news-list__date">
+              <time datetime="2030.02.08">2030.02.08</time>
+            </div>
+            <a href="#" class="about-news-list__link">
+              <p class="about-news-list__text">採用を強化中です！一緒に働きませんか？</p>
+            </a>
+          </li>
+          <li class="about-news-list__item">
+            <div class="about-news-list__date">
+              <time datetime="2030.02.02">2030.02.02</time>
+            </div>
+            <a href="#" class="about-news-list__link">
+              <p class="about-news-list__text">人材紹介SNS『スタート』をリリースしました。3/31まで新規登録キャンペーンを開催中です！サービス内で使える500ポイントをプレゼント！</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+  </main>
+
+  
+  <footer class="footer">
+    <div class="container">
+      <nav class="fnav">
+        <ul class="fnav__list">
+          <li class="fnav__item">
+            <a class="fnav__link" href="/index.html">ホーム</a>
+          </li>
+          <li class="fnav__item">
+            <a class="fnav__link" href="/index.html">メッセージ</a>
+          </li>
+          <li class="fnav__item">
+            <a class="fnav__link" href="/index.html">会社概要</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="copyright">&copy;START</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>

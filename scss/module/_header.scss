@@ -1,0 +1,45 @@
+@use '../setting/config' as *;
+@use '../mixin/_mixin' as *;
+
+/**********************************************
+  ヘッダー
+**********************************************/
+.site-header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  // box-shadow: 0 10px 25px 0 $shadow-color;
+  z-index: 10;
+  height: $header-height;
+  @include mq(md) {
+    height: $sp-header-height;
+  }
+  
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 70px;
+    @include mq(md) {
+      padding: 0 20px;
+    }
+  }
+}
+
+.branding {
+  &__title {
+    display: block;
+    width: 167px;
+    height: 33px;
+    @include hover-pale();
+    @include mq(md) {
+      width: 107px;
+      height: 21px;
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

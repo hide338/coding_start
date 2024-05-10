@@ -1,0 +1,96 @@
+@use '../setting/config' as *;
+@use '../mixin/_mixin' as *;
+
+/**********************************************
+  グローバルナビゲーション
+**********************************************/
+// PC
+.gnav {
+  display: block;
+  @include mq(md) {
+    display: none;
+  }
+  
+  &__list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    align-items: center;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    letter-spacing: 5%;
+    line-height: 16px;
+    &:first-of-type {
+      margin-left: 0;
+    }
+  }
+
+  &__link {
+    @include hover-text-color($main-color);
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+
+// SP
+.sp-gnav {
+  display: none;
+  @include mq(md){
+    display: block;
+  }
+  
+  
+  &__btn {
+    background-color: $main-color;
+    border: none;
+    cursor: pointer;
+    color: $icon-color;
+    position: fixed;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    // padding-right: 1rem;
+    transform: translateY(-50%);
+    z-index: 20;
+    top: calc($header-height / 2);
+    @include mq(md) {
+      top: calc($sp-header-height / 2);
+    }
+  }
+
+  &__list {
+    list-style: none;
+    position: fixed;
+    top: 0;
+    left: 50vw;
+    width: 50vw;
+    height: 100vh;
+    padding-top: 83px;
+    text-align: center;
+    background-color: $main-color;
+    transition-duration: $duration-time;
+    z-index: 10;
+    &.translate-x-full{
+      translate: 100vw;
+    }
+  }
+  
+  &__item {
+    margin-bottom: 25px;
+    
+  }
+  
+  &__link {
+    @include hover-pale();
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    // padding-left: 1rem;
+    // padding-right: 1rem;
+  }
+}

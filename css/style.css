@@ -1,0 +1,1610 @@
+@charset "UTF-8";
+/*
+Theme Name: WordPress BASE
+Author: Toshihide Nakahara
+Version: 1.0.0
+*/
+/**********************************************
+  各スタイルのインポート
+**********************************************/
+/**********************************************
+  変数
+**********************************************/
+/*
+Theme Name: WordPress BASE
+Author: Toshihide Nakahara
+Version: 1.0.0
+*/
+/**********************************************
+  各スタイルのインポート
+**********************************************/
+/**********************************************
+  Break Points
+**********************************************/
+/* ---------------------------------------------
+  Gap
+--------------------------------------------- */
+/* Gapをループですべて作成する場合、下記を有効化 */
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+/* ---------------------------------------------
+  Grid Columns
+--------------------------------------------- */
+/* Grid Columnsをループですべて作成する場合、下記を有効化 */
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+/* ---------------------------------------------
+  Grid Columns Span
+--------------------------------------------- */
+/* col-spanをループですべて作成する場合、下記を有効化 */
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+/* ------------ col-start --------------- */
+/* col-startをループですべて作成する場合、下記を有効化 */
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+/* ------------ col-end --------------- */
+/* col-endをループですべて作成する場合、下記を有効化 */
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+/* ---------------------------------------------
+  Grid rows
+--------------------------------------------- */
+/* Grid rowsをループですべて作成する場合、下記を有効化 */
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+/* ---------------------------------------------
+  Grid Rows Span
+--------------------------------------------- */
+/* row-spanをループですべて作成する場合、下記を有効化 */
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+/* ------------ row-start --------------- */
+/* row-startをループですべて作成する場合、下記を有効化 */
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+/* ------------ row-end --------------- */
+/* row-endをループですべて作成する場合、下記を有効化 */
+/* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+/*
+Theme Name: WordPress BASE
+Author: Toshihide Nakahara
+Version: 1.0.0
+*/
+/**********************************************
+  各スタイルのインポート
+**********************************************/
+/**********************************************
+  ホバーアクション
+**********************************************/
+/*
+Theme Name: WordPress BASE
+Author: Toshihide Nakahara
+Version: 1.0.0
+*/
+/**********************************************
+  各スタイルのインポート
+**********************************************/
+/**********************************************
+  Button
+**********************************************/
+/*
+Theme Name: WordPress BASE
+Author: Toshihide Nakahara
+Version: 1.0.0
+*/
+/**********************************************
+  各スタイルのインポート
+**********************************************/
+/**********************************************
+  Tag
+**********************************************/
+/*
+Theme Name: WordPress BASE
+Author: Toshihide Nakahara
+Version: 1.0.0
+*/
+/**********************************************
+  各スタイルのインポート
+**********************************************/
+/**********************************************
+  Card
+**********************************************/
+/*
+Theme Name: WordPress BASE
+Author: Toshihide Nakahara
+Version: 1.0.0
+*/
+/**********************************************
+  各スタイルのインポート
+**********************************************/
+/**********************************************
+  Button
+**********************************************/
+/*
+Theme Name: WordPress BASE
+Author: Toshihide Nakahara
+Version: 1.0.0
+*/
+/**********************************************
+  各スタイルのインポート
+**********************************************/
+/**********************************************
+  サイトのベーススタイル(タグ指定)
+  JavaScript使用のスタイル
+**********************************************/
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+@media screen and (max-width: 768px) {
+  html {
+    scroll-padding-top: 60px;
+  }
+}
+
+body {
+  color: #333;
+  font-family: "Roboto", "Noto Sans JP", sans-serif;
+  letter-spacing: 0.05em;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+main {
+  overflow: hidden;
+}
+
+/**********************************************
+  リセットCSS
+**********************************************/
+/*! destyle.css v4.0.1 | MIT License | https://github.com/nicolas-cusan/destyle.css */
+/* Reset box-model and set borders */
+/* ============================================ */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 0;
+  min-width: 0;
+}
+
+/* Document */
+/* ============================================ */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ * 3. Remove gray overlay on links for iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -webkit-tap-highlight-color: transparent; /* 3*/
+}
+
+/* Sections */
+/* ============================================ */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/* Vertical rhythm */
+/* ============================================ */
+p,
+table,
+blockquote,
+address,
+pre,
+iframe,
+form,
+figure,
+dl {
+  margin: 0;
+}
+
+/* Headings */
+/* ============================================ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+}
+
+/* Lists (enumeration) */
+/* ============================================ */
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Lists (definition) */
+/* ============================================ */
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 0;
+}
+
+/* Grouping content */
+/* ============================================ */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+  border-top-width: 1px;
+  margin: 0;
+  clear: both;
+  color: inherit;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: inherit; /* 2 */
+}
+
+address {
+  font-style: inherit;
+}
+
+/* Text-level semantics */
+/* ============================================ */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: inherit; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Replaced content */
+/* ============================================ */
+/**
+ * Prevent vertical alignment issues.
+ */
+svg,
+img,
+embed,
+object,
+iframe {
+  vertical-align: bottom;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Forms */
+/* ============================================ */
+/**
+ * Reset form fields to make them styleable.
+ * 1. Make form elements stylable across systems iOS especially.
+ * 2. Inherit text-transform from parent.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  -webkit-appearance: none; /* 1 */
+  -moz-appearance: none;
+       appearance: none;
+  vertical-align: middle;
+  color: inherit;
+  font: inherit;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  text-align: inherit;
+  text-transform: inherit; /* 2 */
+}
+
+/**
+ * Correct cursors for clickable elements.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  cursor: pointer;
+}
+
+button:disabled,
+[type=button]:disabled,
+[type=reset]:disabled,
+[type=submit]:disabled {
+  cursor: default;
+}
+
+/**
+ * Improve outlines for Firefox and unify style with input elements & buttons.
+ */
+:-moz-focusring {
+  outline: auto;
+}
+
+select:disabled {
+  opacity: inherit;
+}
+
+/**
+ * Remove padding
+ */
+option {
+  padding: 0;
+}
+
+/**
+ * Reset to invisible
+ */
+fieldset {
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * Correct the outline style in Safari.
+ */
+[type=search] {
+  outline-offset: -2px; /* 1 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Fix font inheritance.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/**
+ * Fix appearance for Firefox
+ */
+[type=number] {
+  -webkit-appearance: textfield;
+          appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+/**
+ * Clickable labels
+ */
+label[for] {
+  cursor: pointer;
+}
+
+/* Interactive */
+/* ============================================ */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/*
+ * Remove outline for editable content.
+ */
+[contenteditable]:focus {
+  outline: auto;
+}
+
+/* Tables */
+/* ============================================ */
+/**
+1. Correct table border color inheritance in all Chrome and Safari.
+*/
+table {
+  border-color: inherit; /* 1 */
+  border-collapse: collapse;
+}
+
+caption {
+  text-align: left;
+}
+
+td,
+th {
+  vertical-align: top;
+  padding: 0;
+}
+
+th {
+  text-align: left;
+  font-weight: bold;
+}
+
+/*
+Theme Name: WordPress BASE
+Author: Toshihide Nakahara
+Version: 1.0.0
+*/
+/**********************************************
+  各スタイルのインポート
+**********************************************/
+/**********************************************
+  ヘッダー
+**********************************************/
+.site-header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 10;
+  height: 90px;
+}
+@media screen and (max-width: 768px) {
+  .site-header {
+    height: 60px;
+  }
+}
+.site-header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 70px;
+}
+@media screen and (max-width: 768px) {
+  .site-header__inner {
+    padding: 0 20px;
+  }
+}
+
+.branding__title {
+  display: block;
+  width: 167px;
+  height: 33px;
+  transition-duration: 0.3s;
+}
+.branding__title:hover {
+  opacity: 0.7;
+}
+@media screen and (max-width: 768px) {
+  .branding__title {
+    width: 107px;
+    height: 21px;
+  }
+}
+.branding__title img {
+  width: 100%;
+  height: auto;
+}
+
+/*
+Theme Name: WordPress BASE
+Author: Toshihide Nakahara
+Version: 1.0.0
+*/
+/**********************************************
+  各スタイルのインポート
+**********************************************/
+/**********************************************
+  メイン
+**********************************************/
+.site-main {
+  margin: 0 auto;
+}
+
+.section {
+  margin-top: 40px;
+}
+.section:last-of-type {
+  margin-bottom: 60px;
+}
+@media screen and (max-width: ) {
+  .section {
+    margin-top: 60px;
+  }
+  .section:last-of-type {
+    margin-bottom: 100px;
+  }
+}
+.section__title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #DD1B57;
+  letter-spacing: 5%;
+}
+@media screen and (max-width: ) {
+  .section__title {
+    font-size: 40px;
+  }
+}
+
+/*
+Theme Name: WordPress BASE
+Author: Toshihide Nakahara
+Version: 1.0.0
+*/
+/**********************************************
+  各スタイルのインポート
+**********************************************/
+/**********************************************
+  コンテンツエリア
+**********************************************/
+.content-area {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 3%;
+  margin: 3rem auto;
+}
+.content-area--mt-none {
+  margin-top: 0 !important;
+}
+
+/*
+Theme Name: WordPress BASE
+Author: Toshihide Nakahara
+Version: 1.0.0
+*/
+/**********************************************
+  各スタイルのインポート
+**********************************************/
+/**********************************************
+  フッター
+**********************************************/
+.footer {
+  background-color: #DD1B57;
+  padding-top: 42px;
+  padding-bottom: 32px;
+}
+
+.copyright {
+  margin-top: 23px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 3%;
+  font-size: 12px;
+  line-height: 13.8px;
+}
+@media screen and (max-width: 768px) {
+  .copyright {
+    font-size: 10px;
+    line-height: 10px;
+  }
+}
+
+/*
+Theme Name: WordPress BASE
+Author: Toshihide Nakahara
+Version: 1.0.0
+*/
+/**********************************************
+  各スタイルのインポート
+**********************************************/
+/**********************************************
+  グローバルナビゲーション
+**********************************************/
+.gnav {
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .gnav {
+    display: none;
+  }
+}
+.gnav__list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+.gnav__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+  letter-spacing: 5%;
+  line-height: 16px;
+}
+.gnav__item:first-of-type {
+  margin-left: 0;
+}
+.gnav__link {
+  transition-duration: 0.3s;
+  text-decoration: none;
+  font-weight: bold;
+}
+.gnav__link:hover {
+  color: #DD1B57;
+}
+
+.sp-gnav {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .sp-gnav {
+    display: block;
+  }
+}
+.sp-gnav__btn {
+  background-color: #DD1B57;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  position: fixed;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  transform: translateY(-50%);
+  z-index: 20;
+  top: 45px;
+}
+@media screen and (max-width: 768px) {
+  .sp-gnav__btn {
+    top: 30px;
+  }
+}
+.sp-gnav__list {
+  list-style: none;
+  position: fixed;
+  top: 0;
+  left: 50vw;
+  width: 50vw;
+  height: 100vh;
+  padding-top: 83px;
+  text-align: center;
+  background-color: #DD1B57;
+  transition-duration: 0.3s;
+  z-index: 10;
+}
+.sp-gnav__list.translate-x-full {
+  translate: 100vw;
+}
+.sp-gnav__item {
+  margin-bottom: 25px;
+}
+.sp-gnav__link {
+  transition-duration: 0.3s;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.sp-gnav__link:hover {
+  opacity: 0.7;
+}
+
+/*
+Theme Name: WordPress BASE
+Author: Toshihide Nakahara
+Version: 1.0.0
+*/
+/**********************************************
+  各スタイルのインポート
+**********************************************/
+/**********************************************
+  フッターナビゲーション
+**********************************************/
+.fnav {
+  color: #fff;
+}
+.fnav__list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+.fnav__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+  font-size: 14px;
+  letter-spacing: 5%;
+  line-height: 14px;
+}
+.fnav__item:first-of-type {
+  margin-left: 0;
+}
+@media screen and (max-width: 768px) {
+  .fnav__item {
+    font-size: 12px;
+    line-height: 12px;
+    margin-left: 25px;
+  }
+  .fnav__item:first-of-type {
+    margin-left: 0;
+  }
+}
+.fnav__link {
+  transition-duration: 0.3s;
+  text-decoration: none;
+  font-weight: bold;
+}
+.fnav__link:hover {
+  opacity: 0.7;
+}
+
+/*
+Theme Name: WordPress BASE
+Author: Toshihide Nakahara
+Version: 1.0.0
+*/
+/**********************************************
+  各スタイルのインポート
+**********************************************/
+/**********************************************
+  パンくずリスト
+**********************************************/
+.breadcrumb__item {
+  display: inline-block;
+}
+.breadcrumb__item:nth-of-type(n + 2):before {
+  content: "";
+  display: inline-block;
+  transform: rotate(45deg);
+  width: 5px;
+  height: 5px;
+  border-top: 1px solid #333;
+  border-right: 1px solid #333;
+  vertical-align: 3px;
+}
+.breadcrumb__item a {
+  transition: opacity 0.6s;
+}
+.breadcrumb__item a:hover {
+  opacity: 0.7;
+}
+
+/*
+Theme Name: WordPress BASE
+Author: Toshihide Nakahara
+Version: 1.0.0
+*/
+/**********************************************
+  各スタイルのインポート
+**********************************************/
+/**********************************************
+  ページャースタイル
+**********************************************/
+.pager {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+@media screen and (max-width: ) {
+  .pager {
+    gap: 1rem;
+  }
+}
+.pager__item {
+  text-align: center;
+  margin-top: 0.5rem;
+  overflow: hidden;
+  grid-column: span 3/span 3;
+}
+@media screen and (max-width: ) {
+  .pager__item {
+    margin-top: 0;
+    grid-column: span 1/span 1;
+  }
+}
+@media screen and (max-width: ) {
+  .pager__item--prev {
+    grid-column-start: 1;
+  }
+}
+@media screen and (max-width: ) {
+  .pager__item--return {
+    grid-column-start: 2;
+  }
+}
+@media screen and (max-width: ) {
+  .pager__item--next {
+    grid-column-start: 3;
+  }
+}
+.pager__link {
+  display: block;
+  padding: 0.5rem 2rem;
+  background-color: #F3F3F3;
+  transition-duration: 0.3s;
+}
+.pager__link:hover {
+  background-color: #DD1B57;
+  color: #fff;
+}
+
+/*
+Theme Name: WordPress BASE
+Author: Toshihide Nakahara
+Version: 1.0.0
+*/
+/**********************************************
+  各スタイルのインポート
+**********************************************/
+/**********************************************
+  その他のモジュール
+**********************************************/
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+@media screen and (max-width: ) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+.hidden {
+  display: none !important;
+}
+
+.snap-start {
+  scroll-snap-align: start;
+}
+
+.emphasized {
+  color: #DD1B57;
+}
+
+.card {
+  overflow: hidden;
+  background-color: white;
+  padding: 3rem 0;
+}
+.card__img {
+  position: relative;
+  padding-top: 56.25%;
+  overflow: hidden;
+}
+.card__img img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+.card__body {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card__tag {
+  margin-top: 2rem;
+  display: block;
+}
+.card__title {
+  font-weight: bold;
+  font-size: 1.125rem;
+  margin-top: 1rem;
+}
+.card__text {
+  text-align: left;
+}
+.card__link {
+  transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.card__link:hover {
+  opacity: 0.7;
+}
+.card__link:hover {
+  text-decoration: underline;
+}
+.card__btn {
+  margin: 0 auto;
+  width: 60%;
+  margin-top: 2rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  text-align: center;
+  border: 1px solid #333;
+}
+.card__btn a {
+  transition-duration: 0.3s;
+}
+.card__btn a:hover {
+  text-decoration: underline;
+}
+
+.tag {
+  font-size: 0.875rem;
+  padding: 0.125rem 0.25rem;
+  background-color: #DD1B57;
+  color: #fff;
+  border-radius: 0.25rem;
+  display: inline-block;
+  margin-left: 0.5rem;
+  transition-duration: 0.3s;
+}
+.tag:first-of-type {
+  margin-left: 0;
+}
+.tag:hover {
+  opacity: 0.7;
+}
+
+/**********************************************
+  プラグインのスタイル
+**********************************************/
+/*
+Theme Name: WordPress BASE
+Author: Toshihide Nakahara
+Version: 1.0.0
+*/
+/**********************************************
+  各スタイルのインポート
+**********************************************/
+.wp-pagenavi {
+  text-align: center;
+}
+
+.wp-pagenavi span.current,
+.page.smaller,
+.page.larger,
+.nextpostslink,
+.previouspostslink {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  padding: 0;
+  background: #DD1B57;
+  color: #FFFFFF;
+  border-radius: 50%;
+  border: none;
+}
+
+/* 共通スタイル*/
+.page.smaller,
+.page.larger {
+  background: #fff;
+  color: #DD1B57;
+  border: 1px solid #DD1B57;
+  padding: 0;
+}
+
+/* 現在ページより前のボタン */
+.page.smaller {
+  margin-right: 25px;
+}
+
+/* 現在ページより後のボタン */
+.page.larger {
+  margin-left: 25px;
+}
+
+.wp-pagenavi a:hover {
+  color: #FFF;
+  background-color: #999;
+  border: 1px solid #999 !important;
+}
+
+.nextpostslink,
+.previouspostslink {
+  line-height: 40px;
+  border: 1px solid #DD1B57 !important;
+  color: #DD1B57 !important;
+  position: relative;
+  background: #fff;
+  color: #DD1B57;
+  top: -3px;
+}
+
+.nextpostslink {
+  left: 25px;
+}
+
+.previouspostslink {
+  right: 25px;
+}
+
+.nextpostslink::before,
+.previouspostslink::after {
+  content: "";
+  width: 0.5px;
+  height: 40px;
+  background-color: rgb(224, 215, 215);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nextpostslink::before {
+  left: -15px;
+}
+
+.previouspostslink::after {
+  right: -15px;
+}
+
+/* 〇/〇 の部分のスタイル → 不要の場合は非表示 */
+.pages {
+  display: none;
+}
+
+/*
+Theme Name: WordPress BASE
+Author: Toshihide Nakahara
+Version: 1.0.0
+*/
+/**********************************************
+  各スタイルのインポート
+**********************************************/
+.xo-event-calendar table.xo-month button {
+  text-align: center;
+}
+.xo-event-calendar table.xo-month button span.nav-prev {
+  border-color: #333;
+  border-top: none;
+  border-right: none;
+  transition-duration: 0.3s;
+}
+.xo-event-calendar table.xo-month button span.nav-next {
+  border-color: #333;
+  border-bottom: none;
+  border-left: none;
+  transition-duration: 0.3s;
+}
+.xo-event-calendar table.xo-month button:hover span.nav-prev,
+.xo-event-calendar table.xo-month button:hover span.nav-next {
+  opacity: 0.7;
+}
+.xo-event-calendar table.xo-month .month-dayname td div {
+  border: none;
+}
+
+/*
+Theme Name: WordPress BASE
+Author: Toshihide Nakahara
+Version: 1.0.0
+*/
+/**********************************************
+  各スタイルのインポート
+**********************************************/
+/* ======================================
+* index FV
+* =================================== */
+.fv {
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url("../img/pc_bg_mv.png");
+  height: 600px;
+}
+@media screen and (max-width: 768px) {
+  .fv {
+    height: 460px;
+    background-image: url("../img/sp_mv.png");
+  }
+}
+.fv__text {
+  color: #fff;
+}
+.fv__title {
+  font-size: 160px;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .fv__title {
+    font-size: 80px;
+  }
+}
+.fv__catch-copy {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+  .fv__catch-copy {
+    font-size: 20px;
+  }
+}
+
+/* ======================================
+* index Newsブロック
+* =================================== */
+.news {
+  display: flex;
+  -moz-column-gap: 90px;
+       column-gap: 90px;
+}
+@media screen and (max-width: 768px) {
+  .news {
+    display: block;
+  }
+}
+.news__body {
+  flex: 1;
+  margin-top: 0;
+}
+@media screen and (max-width: 768px) {
+  .news__body {
+    margin-top: 20px;
+  }
+}
+
+.news-list__item {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #E8E8E8;
+  margin-top: 15px;
+  display: flex;
+}
+.news-list__item:first-of-type {
+  margin-top: 0;
+}
+@media screen and (max-width: 768px) {
+  .news-list__item {
+    display: block;
+  }
+}
+.news-list__date {
+  margin-right: 20px;
+}
+@media screen and (max-width: 768px) {
+  .news-list__date {
+    margin-right: 0;
+  }
+}
+.news-list__text {
+  flex: 1;
+}
+.news-list__link {
+  transition-duration: 0.3s;
+}
+.news-list__link:hover {
+  color: #DD1B57;
+  text-decoration: underline;
+}
+
+/* ======================================
+* index serviceブロック
+* =================================== */
+.service__header {
+  position: relative;
+}
+.service__header::before {
+  content: "SERVICE";
+  display: block;
+  position: absolute;
+  top: -20px;
+  font-size: 168px;
+  right: -20px;
+  line-height: 1;
+  font-weight: bold;
+  color: #F2F2F2;
+  z-index: -10;
+}
+@media screen and (max-width: 768px) {
+  .service__header::before {
+    top: 0;
+    font-size: 70px;
+  }
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+.service-grid__item {
+  grid-column: span 1/span 1;
+}
+@media screen and (max-width: 768px) {
+  .service-grid__item {
+    grid-column: span 3/span 3;
+  }
+}
+
+.service__body {
+  margin-top: 50px;
+}
+@media screen and (max-width: 768px) {
+  .service__body {
+    margin-top: 20px;
+  }
+}
+
+.service-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 3px 0 21px rgba(0, 0, 0, 0.16);
+}
+.service-card__body {
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.service-card__icon {
+  width: 48px;
+  height: 48px;
+}
+.service-card__icon img {
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 768px) {
+  .service-card__icon {
+    width: 60px;
+    height: 60px;
+  }
+}
+.service-card__title-area {
+  margin-top: 5px;
+}
+.service-card__title {
+  font-weight: bold;
+  line-height: 1.15em;
+}
+.service-card__text-area {
+  margin-top: 10px;
+}
+.service-card__text {
+  font-size: 14px;
+  line-height: 1.7em;
+}
+
+/* ======================================
+* lower common 
+* =================================== */
+.lower-fv {
+  display: block;
+  height: 190px;
+  width: 100%;
+  background-image: url("../img/pc_bg_mv.png");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .lower-fv {
+    background-image: url("../img/sp_mv.png");
+    height: 160px;
+  }
+}
+.lower-fv__title {
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 10%;
+}
+@media screen and (max-width: 768px) {
+  .lower-fv__title {
+    font-size: 28px;
+    line-height: 28px;
+  }
+}
+
+/* ======================================
+* message
+* =================================== */
+.message {
+  margin-top: 60px;
+  max-width: 830px;
+}
+.message__title {
+  color: #DD1B57;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 5%;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .message__title {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+.message__sub-title {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 28.8px;
+  letter-spacing: 5%;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .message__sub-title {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+.message__text-area {
+  margin-top: 40px;
+}
+@media screen and (max-width: 768px) {
+  .message__text-area {
+    margin-top: 30px;
+  }
+}
+.message__icon {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 768px) {
+  .message__icon {
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+}
+.message__text {
+  line-height: 25.6px;
+  letter-spacing: 5%;
+}
+@media screen and (max-width: 768px) {
+  .message__text {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+.message__text span {
+  color: #349BF4;
+  text-decoration: underline;
+}
+.message__img {
+  height: 400px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  background-image: url("../img/office-1.png");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 768px) {
+  .message__img {
+    background-image: url("../img/office.png");
+    height: 335px;
+    margin-bottom: 60px;
+  }
+}
+
+/* ======================================
+* index About
+* =================================== */
+.about {
+  margin-top: 60px;
+}
+
+.about-table table {
+  width: 100%;
+}
+.about-table table tr {
+  border-bottom: 1px solid #DDDDDD;
+}
+.about-table table th {
+  padding: 30px;
+  font-size: 15px;
+  line-height: 17.3px;
+  letter-spacing: 5%;
+  font-weight: bold;
+  width: 20%;
+}
+@media screen and (max-width: 768px) {
+  .about-table table th {
+    padding: 20px;
+    padding-left: 0;
+    width: 30%;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+.about-table table td {
+  padding: 30px;
+  padding-left: 0;
+  width: 80%;
+  font-size: 15px;
+  line-height: 17.3px;
+  letter-spacing: 5%;
+}
+@media screen and (max-width: 768px) {
+  .about-table table td {
+    padding: 20px 0;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+.about-map {
+  margin-top: 50px;
+}
+.about-map__gmap {
+  width: 100%;
+}
+.about-map__link {
+  display: block;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 16.1px;
+  text-align: right;
+  text-decoration: underline;
+  color: #349BF4;
+}
+.about-map__link:hover {
+  transition-duration: 0.3s;
+}
+.about-map__link:hover:hover {
+  opacity: 0.7;
+}
+@media screen and (max-width: 768px) {
+  .about-map__link {
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 13.8px;
+  }
+}
+
+.about-news {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 768px) {
+  .about-news {
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+}
+
+.about-news-list__item {
+  display: flex;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #DDDDDD;
+}
+.about-news-list__item:first-of-type {
+  margin-top: 0;
+}
+@media screen and (max-width: 768px) {
+  .about-news-list__item {
+    display: block;
+  }
+}
+.about-news-list__date {
+  margin-right: 20px;
+  font-size: 15px;
+  line-height: 27px;
+}
+.about-news-list__link {
+  transition-duration: 0.3s;
+}
+.about-news-list__link:hover {
+  color: #DD1B57;
+}
+.about-news-list__text {
+  font-size: 15px;
+  line-height: 27px;
+}
+@media screen and (max-width: 768px) {
+  .about-news-list__text {
+    line-height: 24px;
+  }
+}/*# sourceMappingURL=style.css.map */

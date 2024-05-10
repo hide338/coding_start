@@ -1,0 +1,24 @@
+@use '../setting/config' as *;
+@use '../mixin/_mixin' as *;
+
+/**********************************************
+  フッター
+**********************************************/
+.footer {
+  background-color: $main-color;
+  padding-top: 42px;
+  padding-bottom: 32px;
+}
+
+.copyright {
+  margin-top: 23px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 3%;
+  font-size: 12px;
+  line-height: 13.8px;
+  @include mq(md) {
+    font-size: 10px;
+    line-height: 10px;
+  }
+}
